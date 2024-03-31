@@ -24,7 +24,7 @@ import javax.swing.UnsupportedLookAndFeelException;
 public class MainForm extends javax.swing.JFrame {
 
     public static PC pc;
-    private final String path; //menggunakan private final agar variabel tidak dapat diubah setelah diinisialisasi
+    private final String path; //mencegah variabel dapat diubah setelah diinisialisasi dengan private final
     /**
      * Creates new form MainForm
      */

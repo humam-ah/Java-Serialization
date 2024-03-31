@@ -11,7 +11,7 @@ import java.util.List;
  * @author Humam Asathin H
  */
 public class PC implements Serializable{
-    private transient String id; //menggunakan transient agar tidak diikutkan dalam proses serialisasi
+    private transient String id; //transient membuat id tidak ikut diproses dalam serialisasi
     private static String nama;
     private List<IpConfig> ips;
     public void setId(String id) {
